@@ -1,0 +1,13 @@
+{
+  "name": "graphiql-example-cdn",
+  "description": "An example using GraphiQL",
+  "scripts": {
+    "build": "cp ../graphiql.js ../graphiql.css .",
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2"
+  }
+}
